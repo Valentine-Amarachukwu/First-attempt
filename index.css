@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+}
+
+
+.nav{
+    background-color: #283593;
+    color: #fff;
+    padding: 0px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "source sans 3", sans-serif;
+    flex-wrap: wrap;
+}
+
+
+
+
+.nav-items ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* flex-wrap: wrap; */
+    }
+.nav-items li{
+    padding: 0 10px;
+    /* display: block; */
+    
+}
+
+.nav-items a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.nav-items a:hover{
+    color: #C5CAE9;
+    transform: rotate(6deg);
+    transition: all 1s ease-out;
+}
+
+.body{
+    padding: 100px 90px;
+    background-color:#C5CAE9;
+    display: flex;
+    justify-content: center;
+}
+.body-inner{
+    max-width: 760px;
+    font-family: sans-serif;
+}
+.body p{
+    line-height: 2.5;
+    font-size: 1rem;
+}
+.body h1{
+    /* font-size: 2rem; */
+}
+
+.body a{
+    text-decoration: none;
+    background-color:#283593;
+    padding: 10px;
+    border-radius: 9px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    display: inline-block;
+}
+.features{
+    background-color: #E8EAF6;
+    padding: 60px 45px;
+}
+.features-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-count: 1;
+    grid-column-gap: 45px;
+    grid-row-gap: 20px;
+}
+
+
+/* Use @media when the minmax attribute is not working */
+/* @media (width < 1500px){
+    .features-inner{grid-template-columns: 1fr 1fr;}
+}
+@media (width < 700px){
+    .features-inner{grid-template-columns: 1fr;}
+} */
+
+
+.features-inner p{
+    line-height: 1.5;
+}
+.features-inner h4{
+    color: #283593;
+    margin: 0;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.first{
+    font-family: sans-serif;
+}
+
+.last{
+    text-align: center;
+}
